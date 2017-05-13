@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@android:color/holo_green_light">
+
+    <Button
+        android:id="@+id/buttonSansSerif"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:fontFamily="sans-serif"
+        android:layout_weight="1"
+        android:text="sans-serif"
+        android:background="@android:color/holo_green_light"/>
+
+    <Button
+        android:id="@+id/buttonMonospace"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:text="casual"
+        android:background="@android:color/holo_green_light"/>
+
+    <Button
+        android:id="@+id/buttonSerif"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:fontFamily="serif"
+        android:text="serif"
+        android:background="@android:color/holo_green_light"/>
+</LinearLayout>
